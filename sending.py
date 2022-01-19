@@ -5,6 +5,7 @@ from flask import Flask, request
 from pathlib import Path 
 from dotenv import load_dotenv
 import shutil
+
 from demofin import getjsonF, getDfresults, getDatesJson, getallUrls, getStockprice,getStock, getBullday, getBearday,getProperDates,getRelnews,getBulldates,getBearDates,bullDayurl,bearDayurl,do_something
 ## t = getjsonF('AAPL') #return data
 ## g = getDfresults(t) #pass in data, returns newsdf
